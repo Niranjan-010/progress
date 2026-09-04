@@ -6,7 +6,7 @@ public class Main{
         {
             facto = facto * i;
         }
-        System.out.print("fact="+facto);
+        System.out.println("fact="+facto);
         return;
     }
     public static void main(String[] args)
