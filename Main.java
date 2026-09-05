@@ -118,3 +118,99 @@ code for prime check
 //         sumofodd(n);
 //     }
 // }
+//infinite loop 
+
+// class Main{
+//     public static void main(String[] args)
+//     {
+//         do 
+//         {
+//               System.out.println("hello");
+//         }while(true);
+//         }
+//     }
+
+// circumference of circle
+// import java.util.*;
+// public class Main{
+//     public static void circumference(int r)
+//     {
+//         System.out.println("circumference of circle = "+(2*3.14*r));
+//         return;
+//     }
+//     public static void main(String[] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter radius of circle");
+//         int radius = sc.nextInt();
+//         circumference(radius);
+//     }
+// }        
+
+//greatest of 3 number
+// import java.util.*;
+// public class Main{
+//     public static void greatest(int x, int y, int z)
+//     {
+//         if(x>y && x>z)
+//         {
+//             System.out.println("greatest number is "+x);
+//         }
+//         else if(y>z)
+//         {
+//             System.out.println("greatest number is "+y);
+//         }
+//         else
+//         {
+//             System.out.println("greatest number is "+z);
+//         }
+//         return;
+//     }
+//     public static void main(String[] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter any three number");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int c = sc.nextInt();
+//         greatest(a,b,c);
+//     }
+// }    
+
+// //Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
+// import java.util.*;
+
+// class Main {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+//         int pos = 0;
+//         int neg = 0;
+//         int zero = 0;
+//         char choice;
+
+//         do {
+//             System.out.print("Enter a number: ");
+//             int x = sc.nextInt();
+
+//             if (x > 0) {
+//                 pos++;
+//             } 
+//             else if (x < 0) {
+//                 neg++;
+//             } 
+//             else {
+//                 zero++;
+//             }
+
+//             System.out.print("Do you want to enter another number? (y/n): ");
+//             choice = sc.next().charAt(0);
+
+//         } while (choice == 'y' || choice == 'Y');
+
+//         System.out.println("Count of positive numbers = " + pos);
+//         System.out.println("Count of negative numbers = " + neg);
+//         System.out.println("Count of zeros = " + zero);
+//     }
+// }
