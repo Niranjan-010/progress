@@ -73,3 +73,48 @@ code for prime check
 //         checkprime(num);
 //     }
 // }
+///code for average of 3 number 
+
+// import java.util.*;
+// public class Main{
+//     public static void average(int x, int y, int z)
+//     {
+//         System.out.println("average="+(x+y+z)/3);
+//         return;
+//     }
+//     public static void main(String [] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter any three number");
+//         int a =sc.nextInt();
+//         int b =sc.nextInt();
+//         int c =sc.nextInt();
+//         average(a,b,c);
+//     }
+// }
+ 
+//code sum of all odd no from 1 to n 
+
+// import java.util.*;
+// public class Main{
+//     public static void sumofodd(int x)
+//     {
+//         int sum=0,i;
+//         for(i=1;i<=x;i++)
+//         {
+//             if(i%2!=0)
+//             {
+//                 sum += i;   
+//             }
+//         }
+//         System.out.println("sum of odd from 1 to n = "+sum);
+//         return;
+//     }
+//     public static void main(String [] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter number");
+//         int n = sc.nextInt();
+//         sumofodd(n);
+//     }
+// }
