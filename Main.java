@@ -1,4 +1,5 @@
 //code for factorial
+
 // import java.util.*;
 // public class Main{
 //     public static void fact(int x){
@@ -40,6 +41,7 @@
 //     }
 // }
 //code for prime check
+
 // import java.util.*;
 // public class Main{
 //     public static void checkprime(int x)
@@ -131,6 +133,7 @@
 //     }
 
 // circumference of circle
+
 // import java.util.*;
 // public class Main{
 //     public static void circumference(int r)
@@ -148,6 +151,7 @@
 // }        
 
 //greatest of 3 number
+
 // import java.util.*;
 // public class Main{
 //     public static void greatest(int x, int y, int z)
@@ -214,6 +218,8 @@
 //         System.out.println("Count of zeros = " + zero);
 //     }
 // }
+//raise to the power of x to n
+
 // import java.util.*;
 // public class Main{
 // public static void power(int x , int n)
@@ -243,26 +249,27 @@
 //     }
 
 //CODE FOR fibonacii series uising function
-import java.util.*;
-public class Main{
-    public static void fibonacii(int n)
-    {
-        int a=0,b=1,c,i;
-        System.out.print(a+" "+b);
-        for(i=2;i<n;i++)
-        {
-            c=a+b;
-            System.out.print(" "+c);
-            a=b;
-            b=c;
-        }
-        return;
-    }
-    public static void main(String [] args)
-    {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter number");
-        int num = sc.nextInt();
-        fibonacii(num);
-    }
+
+// import java.util.*;
+// public class Main{
+//     public static void fibonacii(int n)
+//     {
+//         int a=0,b=1,c,i;
+//         System.out.print(a+" "+b);
+//         for(i=2;i<n;i++)
+//         {
+//             c=a+b;
+//             System.out.print(" "+c);
+//             a=b;
+//             b=c;
+//         }
+//         return;
+//     }
+//     public static void main(String [] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter number");
+//         int num = sc.nextInt();
+//         fibonacii(num);
+//     }
 }
