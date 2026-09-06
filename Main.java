@@ -1,4 +1,4 @@
-code for factorial
+//code for factorial
 // import java.util.*;
 // public class Main{
 //     public static void fact(int x){
@@ -19,7 +19,7 @@ code for factorial
 //     }
 // }
 
-code for multiplication table
+///code for multiplication table
 // import java.util.*;
 // public class Main{
 //     public static void multitable(int x)
@@ -39,7 +39,7 @@ code for multiplication table
 //         multitable(num);
 //     }
 // }
-code for prime check
+//code for prime check
 // import java.util.*;
 // public class Main{
 //     public static void checkprime(int x)
@@ -214,3 +214,55 @@ code for prime check
 //         System.out.println("Count of zeros = " + zero);
 //     }
 // }
+// import java.util.*;
+// public class Main{
+// public static void power(int x , int n)
+// {
+//     if(n==0)
+//         {
+//             System.out.println("value="+(Math.pow(x,n)));
+//         }
+//         else if(n>0)
+//             {
+//                 System.out.println("value="+(Math.pow(x,n)));
+//             }
+//             else
+//             {
+//                 System.out.println("value="+(Math.pow(x,n)));
+//             }
+//          return;
+//         }
+//         public static void main(String [] args)
+//         {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println("enter number and power");
+//             int a = sc.nextInt();
+//             int b = sc.nextInt();
+//             power(a,b);
+//         }
+//     }
+
+//CODE FOR fibonacii series uising function
+import java.util.*;
+public class Main{
+    public static void fibonacii(int n)
+    {
+        int a=0,b=1,c,i;
+        System.out.print(a+" "+b);
+        for(i=2;i<n;i++)
+        {
+            c=a+b;
+            System.out.print(" "+c);
+            a=b;
+            b=c;
+        }
+        return;
+    }
+    public static void main(String [] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number");
+        int num = sc.nextInt();
+        fibonacii(num);
+    }
+}
