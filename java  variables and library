@@ -1,0 +1,29 @@
+// int age = 20;              // Integer
+// double price = 99.50;      // Decimal
+// char grade = 'A';          // Single character
+// boolean passed = true;     // true/false
+// String name = "Niranjan";  // Text
+
+// class Student {
+
+//     int age;              // Instance variable
+//     static String college = "PU";  // Static variable
+
+//     void display() {
+//         int marks = 80;   // Local variable
+//     }
+// }
+
+
+// libraries 
+
+// import java.util.Scanner;
+
+// import java.util.Arrays;
+
+// import java.util.*;
+
+// Scanner sc = new Scanner(System.in);
+
+// Arrays.sort(arr);
+// Arrays.toString(arr);
