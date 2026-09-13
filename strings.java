@@ -1,20 +1,87 @@
-import java.util.*;
+// import java.util.*;
+
+// public class strings {
+//    public static void main(String args[]) {
+//      Scanner sc = new Scanner (System.in);
+//      int size = sc.nextInt();
+//      String array[] = new String[size];
+//      int totLength = 0;
 
 
-public class strings {
-   public static void main(String args[]) {
-     Scanner sc = new Scanner (System.in);
-     int size = sc.nextInt();
-     String array[] = new String[size];
-     int totLength = 0;
+//      for(int i=0; i<size; i++) {
+//        array[i] = sc.next();
+//        totLength += array[i].length();
+//      }
 
 
-     for(int i=0; i<size; i++) {
-       array[i] = sc.next();
-       totLength += array[i].length();
-     }
+//      System.out.println(totLength);
+//    }
+// }
+
+// import java.util.*;
 
 
-     System.out.println(totLength);
-   }
-}
+// public class Strings {
+//    public static void main(String args[]) {
+//      Scanner sc = new Scanner (System.in);
+//      String str = sc.next();
+//      String result = "";
+
+
+//      for(int i=0; i<str.length(); i++) {
+//        if(str.charAt(i) == 'e') {
+//          result += 'i';
+//        } else {
+//          result += str.charAt(i);
+//        }
+//      }
+
+
+//      System.out.println(result);
+//    }
+// // }
+// import java.util.*;
+
+
+// public class Strings {
+//    public static void main(String args[]) {
+//      Scanner sc = new Scanner (System.in);
+//      String email = sc.next();
+//      String userName = "";
+
+
+//      for(int i=0; i<email.length(); i++) {
+//        if(email.charAt(i) == '@') {
+//         break;
+//        } else {
+//          userName += email.charAt(i);
+//        }
+//      }
+
+
+//      System.out.println(userName);
+//    }
+// }
+
+
+ParseInt Method of Integer class
+// public class Strings {
+//    public static void main(String args[]) {
+//        String str = "123";
+//        int number = Integer.parseInt(str);
+//        System.out.println(number);
+      
+      
+//    }
+// }
+
+ToString Method of String class
+// public class Strings {
+//    public static void main(String args[]) {
+//       int number = 123;
+//       String str = Integer.toString(number);
+//       System.out.println(str.length());
+      
+      
+//    }
+// }
