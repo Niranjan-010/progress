@@ -64,7 +64,7 @@
 // }
 
 
-ParseInt Method of Integer class
+// ParseInt Method of Integer class
 // public class Strings {
 //    public static void main(String args[]) {
 //        String str = "123";
@@ -75,7 +75,7 @@ ParseInt Method of Integer class
 //    }
 // }
 
-ToString Method of String class
+// ToString Method of String class
 // public class Strings {
 //    public static void main(String args[]) {
 //       int number = 123;
@@ -85,3 +85,40 @@ ToString Method of String class
       
 //    }
 // }
+import java.util.*;
+
+class Strings {
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("iranjan");
+
+        System.out.println(sb);
+
+        // append
+        sb.append('N');
+        System.out.println(sb);
+
+        // insert
+        sb.insert(0, 'n');
+        System.out.println(sb);
+
+        // delete
+        sb.delete(0, 2);
+        System.out.println(sb);
+
+        // set character
+        sb.setCharAt(0, 'a');
+        System.out.println(sb);
+
+        // replace
+        sb.delete(0, 7);
+        sb.insert(0, 'a');
+        sb.insert(1, 'a');
+        sb.insert(2, 'y');
+        sb.insert(3, 'u');
+        sb.insert(4, 's');
+        sb.insert(5, 'a');
+
+        System.out.println(sb);
+    }
+}
